@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "module": "ES2015",
+    "target": "es5",
+    "lib": [
+      "ESNext",
+      "DOM"
+    ],
+    "strict": false,
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "declarationDir": "dist",
+    "moduleResolution": "node",
+    "noUnusedLocals": true,
+    "outDir": "dist/lib",
+    "baseUrl": ".",
+    "typeRoots": [
+      "node_modules/@types",
+      "src/typings.d.ts"
+    ],
+    "paths": {
+      "utils": [
+        "src/utils/index.ts"
+      ],
+      "types": [
+        "src/types/index.ts"
+      ]
+    }
+  },
+  "include": [
+    "src"
+  ]
+}
